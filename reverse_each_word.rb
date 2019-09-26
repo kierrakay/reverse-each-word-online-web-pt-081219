@@ -5,6 +5,19 @@ reversed_array.join(" ")
 end
 
 
+#reversed_array = word_array.collect {|word| word.reverse }
+
+#in that case the { and } take the place of do and end
+#vs 
+
+#reversed_array = word_array.collect do |word| 
+ # word.reverse 
+#end
+
+
+
+
+
 #def reverse_each_word(sentence1)
   ## sentence1 is "hello there"
   
